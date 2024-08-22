@@ -1,4 +1,4 @@
-export { LazyPageOne } from "./LazyPageOne"
-export { LazyPageTwo } from "./LazyPageTwo"
-export { LazyPageThree } from "./LazyPageThree"
+export {} from "./LazyPageOne"
+export {} from "./LazyPageTwo"
+export {} from "./LazyPageThree"
 // Add more export statements for each file in the directory

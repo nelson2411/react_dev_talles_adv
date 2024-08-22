@@ -51,3 +51,22 @@ nav li a {
   color: grey;
   transition: all 0.3s ease-out;
 }
+
+/*
+Apply spinning infinite animation to the logo
+*/
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
